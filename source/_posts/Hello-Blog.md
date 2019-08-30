@@ -19,7 +19,9 @@ tags:
 
 ### 安装Hexo
 安装Hexo需要保证已经安装了[Node.js](http://nodejs.org/)和[Git](http://git-scm.com/)
-`$ npm install -g hexo-cli`
+`
+$ npm install -g hexo-cli
+`
 
 ### 初始化项目
 `$ cd ~/workspace`
@@ -46,7 +48,7 @@ tags:
 安装git部署脚本
 `$ npm install hexo-deployer-git --save`
 修改配置文件`_confog.yml`
-```
+```yml
 deploy:
   type: git
   repo: https://github.com/Mutefish0/Mutefish0.github.io

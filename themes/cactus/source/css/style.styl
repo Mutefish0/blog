@@ -143,15 +143,19 @@ pre
     border: none
 
 code
-  padding: 0 5px
-  border: 1px dotted $color-border
+  margin: 0 2px
+  padding: 1px 4px
   border-radius: 2px
   -webkit-border-radius: 2px
+  font-family: $font-family-mono
+  font-size 12px
+  background-color: #333338
+  color #d9d9d9
 
 .highlight
   overflow-x: auto
-  margin: 1rem 0
-  padding: 10px 15px
+  margin: 0
+  padding: 0
   border-radius: 4px
   background: $color-background-code
   font-family: $font-family-mono
@@ -204,6 +208,9 @@ code
 
   td.gutter
     text-align: right
+    display none
+  td.code
+    padding: 0px 14px 0
 
   .line
     height: 22px
