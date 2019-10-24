@@ -52,7 +52,7 @@ $ npm install -g hexo-cli
 deploy:
   type: git
   repo: https://github.com/Mutefish0/Mutefish0.github.io
-  branch: gh-pages
+  branch: master
 ```
 后续只需运行以下命令即可自动更新个人主页
 `hexo clean && hexo deploy` 

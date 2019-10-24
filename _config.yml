@@ -82,4 +82,4 @@ theme_config:
 deploy:
   type: git
   repo: https://github.com/Mutefish0/Mutefish0.github.io
-  branch: gh-pages
+  branch: master
